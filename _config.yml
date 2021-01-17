@@ -21,7 +21,10 @@
 title: Winder
 theme: minima
 description: "Linking Speech and Visual Objects to Support Communication in Asynchronous Collaboration"
-last_update: January 14, 2021
+
+syscolor: "#7354f3"
+sysfont: Lato
+video: https://drive.google.com/file/d/1Y4-UP6VrjVat2m0-qhxUcFvSX6xzATVt/preview
 
 plugins:
   - jekyll-feed

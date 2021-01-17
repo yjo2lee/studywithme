@@ -2,33 +2,51 @@
 layout: default
 ---
 
-## About
+## Abstract
 
-I am a Master's student in the [School of Computing](https://cs.kaist.ac.kr/){:target="_blank"} at [KAIST](https://www.kaist.ac.kr/){:target="_blank"}. I work with [Juho Kim](https://juhokim.com/){:target="_blank"} as a member of [KIXLAB](https://www.kixlab.org/){:target="_blank"}.
+Team members commonly collaborate on visual documents remotely and asynchronously. Particularly, students are frequently restricted to this setting as they often do not share work schedules or physical workspaces. As communication in this setting has delays and limits the main modality to text, members exert more effort to reference document objects and understand others' intentions. We propose <span style="color:{{site.syscolor}}">**Winder**</span>, a Figma plugin that addresses these challenges through *linked tapes*&mdash;multimodal comments of clicks and voice. Bidirectional links between the clicked-on objects and voice recordings facilitate understanding tapes: selecting objects retrieves relevant recordings, and playing recordings highlights related objects. By periodically prompting users to produce tapes, <span style="color:{{site.syscolor}}">**Winder**</span> preemptively obtains information to satisfy potential communication needs. Through a five-day study with eight teams of three, we evaluated the system's impact on teams asynchronously designing graphical user interfaces. Our findings revealed that producing linked tapes could be as lightweight as face-to-face (F2F) interactions while transmitting intentions more precisely than text. Furthermore, with preempted tapes, teammates coordinated tasks and invited members to build on each others' work.
 
-I'm interested in building interactive systems to support diverse collaborative tasks (from travel planning to UI design). In particular, I aim to introduce various types of support (e.g., AI, visualizations, or multi-modal input) to enhance communication within collaboration teams.
+------
 
-## Publications
+## System
 
-#### Conference Papers
+<span style="color:{{site.syscolor}}">**Winder**</span> supports three features for tape understanding and navigation: (a) highlighting objects on playback of voice recordings, (b) inline thumbnail images of objects on automatic transcripts, and (c) search of recordings based on objects.
 
-[Design for Collaborative Information-Seeking: Understanding User Challenges and Deploying Collaborative Dynamic Queries](https://kixlab.github.io/website-files/2019/cscw2019-ComeTogether-paper.pdf){:target="_blank"}  
-_Sungsoo (Ray) Hong, Minhyang (Mia) Suh, **Tae Soo Kim**, Irina Smoke, Sangwha Sien, Janet Ng, Mark Zachry, Juho Kim_  
-CSCW 2019 | [acm dl](https://dl.acm.org/doi/10.1145/3359208){:target="_blank"}
+{: .center}
+![Teaser image of the main features in Winder](/assets/img/teaser.png){:width="80%"}
 
-#### Posters, Demos, Workshop Papers
+qwlnwq nwpqn wpqn pnpasn psnqp npqn pqnsp nsp nqpqnp qnp nspqn psqn npq nspn psnp nspqns pqns pn spn spqnsqp n
 
-[Consensus Building in Collaborative Sequencing with Visual Awareness](https://kixlab.github.io/website-files/2020/chi2020-lbw-CoSeq-paper.pdf){:target="_blank"}  
-_**Tae Soo Kim**, Sungsoo (Ray) Hong, Nitesh Goyal, Jeongyeon Kim, Juho Kim_  
-CHI 2020 Extended Abstract | [acm dl](https://dl.acm.org/doi/10.1145/3334480.3382906){:target="_blank"}
+### Recording
 
-## Services
+qlwnwlqnwonp qnpwqn pwqnwp npwqnpw nqp nwpqn pqnpwnp nwpqn pwqnp wnp nqwpn pqwnw pqnpw nqp nwqpnw pqnp wqnp wnqp nqwpnwqp n
 
-**Reviewer:** CSCW2020
+### Playing
 
-## Education
+qlwnwlqnwonp qnpwqn pwqnwp npwqnpw nqp nwpqn pqnpwnp nwpqn pwqnp wnp nqwpn pqwnw pqnpw nqp nwqpnw pqnp wqnp wnqp nqwpnwqp n
+qlwnwlqnwonp qnpwqn pwqnwp npwqnpw nqp nwpqn pqnpwnp nwpqn pwqnp wnp nqwpn pqwnw pqnpw nqp nwqpnw pqnp wqnp wnqp nqwpnwqp n
+qlwnwlqnwonp qnpwqn pwqnwp npwqnpw nqp nwpqn pqnpwnp nwpqn pwqnp wnp nqwpn pqwnw pqnpw nqp nwqpnw pqnp wqnp wnqp nqwpnwqp n
 
-M.S. in School of Computing, KAIST  
-<sup>Mar. 2020 - present</sup>  
-B.S. in School of Computing, KAIST  
-<sup>Sep. 2015 - Feb. 2020, Magna Cum Laude</sup>
+------
+
+## Results
+
+sdqs
+
+------
+
+## CHI 2021 Paper (Camera-ready)
+
+[Link to the PDF][1]
+
+------
+
+{: .logos}
+[![Logo of KIXLAB](/assets/img/kixlab_logo.png)](https://kixlab.org)
+[![Logo of KAIST](/assets/img/kaist_logo.png)](https://kaist.ac.kr)
+
+{: .center .acknowledgement}
+This research was supported by the [KAIST](https://kaist.ac.kr) UP Program.
+
+
+[1]:{{site.url}}/papers/CHI2021___Winder___CameraReady.pdf

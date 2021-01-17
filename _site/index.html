@@ -7,46 +7,143 @@
     <title>Winder</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="shortcut icon" href="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   </head>
+  <base target="_blank">
   <body>
-    <div class="whitespace"></div>
+    <div>
+      <div class="wrapper">
+        <h1 style="color: #7354f3; font-family: 'Lato', sans-serif;">
+          Winder
+        </h1>
+        <h4>
+          Linking Speech and Visual Objects to Support Communication in Asynchronous Collaboration
+        </h4>
+        <div class="authors-wrapper">
+        
+          <div class="author-container">
+            <div class="author-image">
+              <img src="/assets/img/taesoo.jpeg"/>
+            </div>
+            <p>
+            
+              <a href="https://taesookim.com">
+                Tae Soo Kim
+              </a>
+            
+            </p>
+            <p>
+              KAIST
+            </p>
+          </div>
+        
+          <div class="author-container">
+            <div class="author-image">
+              <img src="/assets/img/seungsu.png"/>
+            </div>
+            <p>
+            
+              Seungsu Kim
+            
+            </p>
+            <p>
+              KAIST
+            </p>
+          </div>
+        
+          <div class="author-container">
+            <div class="author-image">
+              <img src="/assets/img/yoonseo.png"/>
+            </div>
+            <p>
+            
+              <a href="https://yoonseochoi.com">
+                Yoonseo Choi
+              </a>
+            
+            </p>
+            <p>
+              KAIST
+            </p>
+          </div>
+        
+          <div class="author-container">
+            <div class="author-image">
+              <img src="/assets/img/juho.jpg"/>
+            </div>
+            <p>
+            
+              <a href="https://juhokim.com">
+                Juho Kim
+              </a>
+            
+            </p>
+            <p>
+              KAIST
+            </p>
+          </div>
+        
+        </div>
+      </div>
+    </div>
     <div class="wrapper">
-      <h2 id="about">About</h2>
+      <hr/>
+      
+      <div class="video-wrapper">
+        <iframe src="https://drive.google.com/file/d/1Y4-UP6VrjVat2m0-qhxUcFvSX6xzATVt/preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <hr/>
+      
+      <h2 id="abstract">Abstract</h2>
 
-<p>I am a Master’s student in the <a href="https://cs.kaist.ac.kr/" target="_blank">School of Computing</a> at <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>. I work with <a href="https://juhokim.com/" target="_blank">Juho Kim</a> as a member of <a href="https://www.kixlab.org/" target="_blank">KIXLAB</a>.</p>
+<p>Team members commonly collaborate on visual documents remotely and asynchronously. Particularly, students are frequently restricted to this setting as they often do not share work schedules or physical workspaces. As communication in this setting has delays and limits the main modality to text, members exert more effort to reference document objects and understand others’ intentions. We propose <span style="color:#7354f3"><strong>Winder</strong></span>, a Figma plugin that addresses these challenges through <em>linked tapes</em>—multimodal comments of clicks and voice. Bidirectional links between the clicked-on objects and voice recordings facilitate understanding tapes: selecting objects retrieves relevant recordings, and playing recordings highlights related objects. By periodically prompting users to produce tapes, <span style="color:#7354f3"><strong>Winder</strong></span> preemptively obtains information to satisfy potential communication needs. Through a five-day study with eight teams of three, we evaluated the system’s impact on teams asynchronously designing graphical user interfaces. Our findings revealed that producing linked tapes could be as lightweight as face-to-face (F2F) interactions while transmitting intentions more precisely than text. Furthermore, with preempted tapes, teammates coordinated tasks and invited members to build on each others’ work.</p>
 
-<p>I’m interested in building interactive systems to support diverse collaborative tasks (from travel planning to UI design). In particular, I aim to introduce various types of support (e.g., AI, visualizations, or multi-modal input) to enhance communication within collaboration teams.</p>
+<hr />
 
-<h2 id="publications">Publications</h2>
+<h2 id="system">System</h2>
 
-<h4 id="conference-papers">Conference Papers</h4>
+<p><span style="color:#7354f3"><strong>Winder</strong></span> supports three features for tape understanding and navigation: (a) highlighting objects on playback of voice recordings, (b) inline thumbnail images of objects on automatic transcripts, and (c) search of recordings based on objects.</p>
 
-<p><a href="https://kixlab.github.io/website-files/2019/cscw2019-ComeTogether-paper.pdf" target="_blank">Design for Collaborative Information-Seeking: Understanding User Challenges and Deploying Collaborative Dynamic Queries</a><br />
-<em>Sungsoo (Ray) Hong, Minhyang (Mia) Suh, <strong>Tae Soo Kim</strong>, Irina Smoke, Sangwha Sien, Janet Ng, Mark Zachry, Juho Kim</em><br />
-CSCW 2019 | <a href="https://dl.acm.org/doi/10.1145/3359208" target="_blank">acm dl</a></p>
+<p class="center"><img src="/assets/img/teaser.png" alt="Teaser image of the main features in Winder" width="80%" /></p>
 
-<h4 id="posters-demos-workshop-papers">Posters, Demos, Workshop Papers</h4>
+<p>qwlnwq nwpqn wpqn pnpasn psnqp npqn pqnsp nsp nqpqnp qnp nspqn psqn npq nspn psnp nspqns pqns pn spn spqnsqp n</p>
 
-<p><a href="https://kixlab.github.io/website-files/2020/chi2020-lbw-CoSeq-paper.pdf" target="_blank">Consensus Building in Collaborative Sequencing with Visual Awareness</a><br />
-<em><strong>Tae Soo Kim</strong>, Sungsoo (Ray) Hong, Nitesh Goyal, Jeongyeon Kim, Juho Kim</em><br />
-CHI 2020 Extended Abstract | <a href="https://dl.acm.org/doi/10.1145/3334480.3382906" target="_blank">acm dl</a></p>
+<h3 id="recording">Recording</h3>
 
-<h2 id="services">Services</h2>
+<p>qlwnwlqnwonp qnpwqn pwqnwp npwqnpw nqp nwpqn pqnpwnp nwpqn pwqnp wnp nqwpn pqwnw pqnpw nqp nwqpnw pqnp wqnp wnqp nqwpnwqp n</p>
 
-<p><strong>Reviewer:</strong> CSCW2020</p>
+<h3 id="playing">Playing</h3>
 
-<h2 id="education">Education</h2>
+<p>qlwnwlqnwonp qnpwqn pwqnwp npwqnpw nqp nwpqn pqnpwnp nwpqn pwqnp wnp nqwpn pqwnw pqnpw nqp nwqpnw pqnp wqnp wnqp nqwpnwqp n
+qlwnwlqnwonp qnpwqn pwqnwp npwqnpw nqp nwpqn pqnpwnp nwpqn pwqnp wnp nqwpn pqwnw pqnpw nqp nwqpnw pqnp wqnp wnqp nqwpnwqp n
+qlwnwlqnwonp qnpwqn pwqnwp npwqnpw nqp nwpqn pqnpwnp nwpqn pwqnp wnp nqwpn pqwnw pqnpw nqp nwqpnw pqnp wqnp wnqp nqwpnwqp n</p>
 
-<p>M.S. in School of Computing, KAIST<br />
-<sup>Mar. 2020 - present</sup><br />
-B.S. in School of Computing, KAIST<br />
-<sup>Sep. 2015 - Feb. 2020, Magna Cum Laude</sup></p>
+<hr />
+
+<h2 id="results">Results</h2>
+
+<p>sdqs</p>
+
+<hr />
+
+<h2 id="chi-2021-paper-camera-ready">CHI 2021 Paper (Camera-ready)</h2>
+
+<p><a href="/papers/CHI2021___Winder___CameraReady.pdf">Link to the PDF</a></p>
+
+<hr />
+
+<p class="logos"><a href="https://kixlab.org"><img src="/assets/img/kixlab_logo.png" alt="Logo of KIXLAB" /></a>
+<a href="https://kaist.ac.kr"><img src="/assets/img/kaist_logo.png" alt="Logo of KAIST" /></a></p>
+
+<p class="center acknowledgement">This research was supported by the <a href="https://kaist.ac.kr">KAIST</a> UP Program.</p>
+
 
     </div>
-    <div class="whitespace"></div>
     
   </body>
 </html>
