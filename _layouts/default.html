@@ -19,11 +19,12 @@
     <div>
       <div class="wrapper">
         <h1 style="color: {{site.syscolor}}; font-family: '{{site.sysfont}}', sans-serif;">
-          {{site.title}}
+          {% if site.syslogo %}
+            <img src="{{site.syslogo}}" width="40px" style="vertical-align:middle"/>
+          {% endif %}
+          <span style="vertical-align:middle"/>{{site.title}}</span>
         </h1>
-        <h4>
-          {{site.description}}
-        </h4>
+        <h4>{{site.description}}</h4>
         <div class="authors-wrapper">
         {% for author in site.data.authors %}
           <div class="author-container">

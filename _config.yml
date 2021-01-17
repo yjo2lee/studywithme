@@ -22,6 +22,7 @@ title: Winder
 theme: minima
 description: "Linking Speech and Visual Objects to Support Communication in Asynchronous Collaboration"
 
+syslogo: /assets/img/winder_logo.svg
 syscolor: "#7354f3"
 sysfont: Lato
 video: https://drive.google.com/file/d/1Y4-UP6VrjVat2m0-qhxUcFvSX6xzATVt/preview
